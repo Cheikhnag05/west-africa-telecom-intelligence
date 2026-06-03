@@ -1,0 +1,10 @@
+country,country_code,operator,parent_company,hq,founded,technology,mobile_money_brand
+Senegal,SN,Orange Sénégal,Orange Group,"Paris, France",1997,2G/3G/4G,Orange Money
+Senegal,SN,Free Sénégal,Axian Group,"Dakar, Sénégal",2017,2G/3G/4G,Wave
+Senegal,SN,Expresso,Sudatel Group,"Khartoum, Sudan",2007,2G/3G,None
+Cote dIvoire,CI,Orange CI,Orange Group,"Paris, France",1996,2G/3G/4G/5G,Orange Money
+Cote dIvoire,CI,MTN CI,MTN Group,"Johannesburg, SA",1996,2G/3G/4G,MTN MoMo
+Cote dIvoire,CI,Moov Africa CI,Maroc Telecom,"Rabat, Maroc",2000,2G/3G/4G,Moov Money
+Mali,ML,Orange Mali,Orange Group,"Paris, France",2003,2G/3G/4G,Orange Money
+Mali,ML,Malitel,Sotelma,"Bamako, Mali",2002,2G/3G/4G,Mobicash
+Mali,ML,Telecel Mali,Telecel Group,"Genève, Suisse",2016,2G/3G,None

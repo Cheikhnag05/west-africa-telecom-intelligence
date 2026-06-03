@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Data (parquet inclus pour le déploiement)
+# data/*.parquet  ← on garde pour Render
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #060D1A; color: #e2e8f0; font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+#root { min-height: 100vh; }
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #0D1B2A; }
+::-webkit-scrollbar-thumb { background: #224060; border-radius: 3px; }
+
+.leaflet-container { background: #0D1B2A !important; border-radius: 12px; }
+
+@layer components {
+  .card { @apply bg-dark-800 border border-dark-600 rounded-xl p-5; }
+  .card-sm { @apply bg-dark-800 border border-dark-600 rounded-lg p-4; }
+  .country-sn { @apply text-green border-green; }
+  .country-ci { @apply text-orange border-orange; }
+  .country-ml { @apply text-gold border-gold; }
+}
