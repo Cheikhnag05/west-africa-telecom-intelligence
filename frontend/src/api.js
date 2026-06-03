@@ -1,5 +1,5 @@
 import axios from 'axios'
-const BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const BASE = import.meta.env.VITE_API_URL || 'https://west-africa-telecom-intelligence.onrender.com'
 export const api = {
   health:      ()        => axios.get(`${BASE}/health`).then(r => r.data),
   stats:       ()        => axios.get(`${BASE}/stats`).then(r => r.data),
